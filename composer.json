@@ -12,12 +12,12 @@
     }
   },
   "support": {
-    "email": "info@kwtdesign.co.uk"
+    "email": "info@coded.media"
   },
   "extra": {
     "handle": "craft-recaptcha-verify",
     "name": "reCAPTCHA Verify",
-    "developer": "KWT Design",
+    "developer": "Coded Media",
     "class": "craftrecaptchaverify\\CraftRecaptchaVerify"
   }
 }
