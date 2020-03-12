@@ -1,0 +1,21 @@
+{% import "_includes/forms" as forms %}
+
+<p>Please fill in your reCAPTCHA API credentials. To get yours, please look <a href="https://www.google.com/recaptcha/admin" target="_blank">here</a>.</p>
+
+{{ forms.textField({
+    label:        "reCAPTCHA Site key"|t,
+    id:           'recaptchaSiteKey',
+    name:         'recaptchaSiteKey',
+    instructions: "Use this in the HTML code your site serves to users."|t,
+    value:        settings.recaptchaSiteKey,
+    errors:       settings.getErrors('recaptchaSiteKey')
+}) }}
+
+{{ forms.textField({
+    label:        "reCAPTCHA Secret key"|t,
+    id:           'recaptchaSecretKey',
+    name:         'recaptchaSecretKey',
+    instructions: "Use this for communication between your site and Google. Be sure to keep it a secret."|t,
+    value:        settings.recaptchaSecretKey,
+    errors:       settings.getErrors('recaptchaSecretKey')
+}) }}

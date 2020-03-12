@@ -1,0 +1,23 @@
+{
+  "name": "kwtdesign/craft-recaptcha-verify",
+  "description": "Verifies google reCAPTCHA.",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "require": {
+    "google/recaptcha": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "craftrecaptchaverify\\": "src/"
+    }
+  },
+  "support": {
+    "email": "info@kwtdesign.co.uk"
+  },
+  "extra": {
+    "handle": "craft-recaptcha-verify",
+    "name": "reCAPTCHA Verify",
+    "developer": "KWT Design",
+    "class": "craftrecaptchaverify\\CraftRecaptchaVerify"
+  }
+}
