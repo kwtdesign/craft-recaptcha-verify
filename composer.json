@@ -1,7 +1,7 @@
 {
   "name": "kwtdesign/craft-recaptcha-verify",
   "description": "Verifies google reCAPTCHA.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "craft-plugin",
   "require": {
     "google/recaptcha": "^1.1"
